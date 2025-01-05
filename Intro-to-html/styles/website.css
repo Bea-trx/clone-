@@ -1,0 +1,53 @@
+.cart{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    height: 34px;
+    width: 120px;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    border-radius:17px ;
+    cursor: pointer;
+    transition: opacity 1.2s;
+}
+
+.cart:hover{
+    opacity: 0.8;
+}
+
+.cart:active{
+    opacity: 0.5;
+}
+
+.nike{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.stock{
+    color: rgb(0, 118, 0);
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.free{
+    font-size: 19px;
+}
+
+.buy{
+    background-color: rgb(255, 164, 28);
+    color: black;
+    height: 34px;
+    width: 120px;
+    border: none;
+    border-radius: 17px;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+
+}
+
+.amazon:hover{
+    color: rgb(6, 167, 20);
+}

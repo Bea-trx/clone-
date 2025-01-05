@@ -1,0 +1,166 @@
+.thumbnails{
+    width: 100%;
+}
+
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 18px;
+    row-gap: 40px;
+}
+
+@media (max-width: 870px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;  
+    }
+}
+
+@media (min-width: 871px) and (max-width:1129px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+@media (min-width: 1130px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;  
+    }
+}
+
+
+.video-title{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 1000px){
+    .video-title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 1000px){
+    .video-author{
+        font-size: 24px;
+    }
+}
+
+.video-link{
+    color: black;
+    text-decoration: none;
+}
+    
+    
+
+.channel-picture,
+.channel-picture2{
+    margin-right: 8px;
+    width: 40px;
+
+}
+
+.img-div{
+    display: inline-block;
+    width: 44px;
+    margin-right: 8px;
+}
+
+.tooltip-image{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.channel-picture .tooltip-container,
+.channel-picture2 .tooltip-container{
+    position: absolute;
+    bottom: -42px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 14px;
+    padding: 8px 8px 4px 8px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 200;
+}
+
+.channel-picture:hover .tooltip-container,
+.channel-picture2:hover .tooltip-container{
+    opacity: 1;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    transition: opacity 0.15s;
+}
+
+
+.tooltip-author{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.tooltip-preview{
+    display: flex;
+    flex-direction: row;
+}
+
+.channel-grid{
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: top;
+    align-items: start;
+}
+
+
+.profile-pic{
+    width: 36px;
+    border-radius: 20px;
+    
+}
+
+.thumbnail-row{
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-time{
+background-color: black;
+color: white;
+position: absolute;
+right: 5px;
+bottom: 12px;
+font-size: 10px;
+font-weight: bold;
+padding-right: 4px;
+padding-left: 4px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-radius: 2px;
+}
+
+.thumbnail-row2{
+    margin-bottom: 8px;
+    position: relative;
+
+}
+
+.video-author{
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+    line-height: 20px;
+}
+
+.video-stats{
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+}
+
+
+.profile-pic2{
+    width: 36px;
+    border-radius: 20px;
+}

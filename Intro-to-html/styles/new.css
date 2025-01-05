@@ -1,0 +1,256 @@
+.model{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 26px;
+    margin-left: 70px;
+    margin-bottom: 8px;
+}
+
+.order{
+    font-size: 20px;
+}
+
+.Touchless{
+    text-decoration: underline;
+}
+p{
+    font-family: Montserrat;
+}
+
+.thanks{
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button{
+    width: 40px;
+    height: 22px;
+}
+
+.div1{
+    width: 300px;
+    height: 100px;
+    border-color: black;
+    border-style: solid;
+}
+
+p{
+    margin-left: 8px;
+}
+
+.yes{
+    margin-left: 8px;
+}
+
+.div2{
+    background-color: black;
+    color: white;
+    width: 320px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.install{
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.add{
+    font-size: 12px;
+    width: 300px;
+}
+
+.disP{
+    width: 40px;
+    border-radius: 20px;
+    
+}
+
+.pic-row{
+    display: inline-block;
+    width: 40px;
+    vertical-align: top;
+    margin-right: 2px;
+}
+
+.profile-info{
+    display: inline-block;
+    width: 500px;
+    line-height: 3px;
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+.vid-author{
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.vid-name{
+    font-size: 15px;
+}
+
+.vid-stats{
+    font-size: 13px;
+}
+
+.button{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.follow-button{
+    width: 65px;
+    height: 26px;
+    background-color: rgb(68, 68, 243);
+    border: none;
+    color: wheat;
+    font-size: 15px;
+    border-radius: 3px;
+    
+}
+
+.profile-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    margin-right: 13px;
+}
+
+.oliver-grid{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+}
+.profile-preview{
+    width: 200px;
+    height: 320px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    margin-top: 50px;
+    border-radius: 2px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.oliv{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.channel-pic{
+    width: 200px;
+}
+
+.dp{
+    width: 30px;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-left: 8px;
+    border-right: 8px;
+}
+
+.chann-div{
+    width: 50px;
+}
+
+.mutual{
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 0;
+    width: 150px;
+    margin-left: 0px;
+}
+
+.chan{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(92, 92, 245);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.vid-auth{
+    margin-bottom: 0;
+}
+
+.vid-preview{
+    margin-top: 0;
+}
+
+
+.gen-container{
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(224, 219, 219);
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.green-pic-container{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.green-pic{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.para-container{
+    line-height: 3px;
+    flex: 1;
+}
+
+.para1{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.para2{
+    font-weight: bold;
+}
+
+.para3{
+    color: rgb(90, 89, 89);
+}
+
+.inboxes{
+    margin-bottom: 10px;
+    margin-top: 8px;
+    font-size: 11px;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    align-items: end;
+}
+
+.para1-5{
+    font-size: 12px;
+    margin-bottom: 0;
+    color: rgb(90, 89, 89);
+}
