@@ -9,6 +9,7 @@ body{
     padding-top: 80px;
     padding-left: 96px;
     padding-right: 24px;
+    padding-bottom: 0;
     background-color: rgb(250, 247, 247);
     
 }
@@ -16,5 +17,14 @@ body{
 @media (min-width: 1201px) {
     body{
         padding-left: 170px;
+        padding-bottom: 0;
     }
 }
+
+@media (max-width: 500px) {
+    body{
+        padding-left: 170px;
+        padding-bottom: 0;
+    }
+}
+
